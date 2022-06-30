@@ -1,0 +1,23 @@
+{
+    "name": "currency_comparison",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "test": "jest __tests__/ --coverage"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@babel/plugin-proposal-class-properties": "^7.17.12",
+        "@babel/preset-env": "^7.18.2",
+        "@babel/preset-react": "^7.17.12",
+        "babel-plugin-transform-class-properties": "^6.24.1",
+        "jest": "^27.5.1"
+    },
+    "dependencies": {
+        "@babel/register": "^7.17.7"
+    }
+}
